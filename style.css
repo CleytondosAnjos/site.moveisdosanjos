@@ -2,30 +2,64 @@
 
 body{
     background: url(imagens/60490787_842521122799407_2773468250854391808_n.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:1.3;
+    color: white;
+}
+p{
+    font-size: larger;
+    color: rgb(219, 219, 219);
 }
 h1{
     text-align: center;
     font-size: 60px;
     height: 90px;
 }
-div.produto{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    background-color: rgba(39, 39, 189, 0.74);
+.sub{
+    margin-top:200px;
 }
+#galeria{
+   
+    width:70%;
+    color: rgba(28, 105, 249, 0.838);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
 
-div#a1{
-    background-image: url('imagens/cabeceira.jpg');
-    background-position: center center;
+    
 }
-
-div#a2{
-    background-image: url('imagens/bases.jpeg');
-    background-position: center center;
+.fotos{
+    width:70%;
+    margin:0;
 }
-
-div#a3{
-    background-image: url('imagens/sapateiras.jpeg');
-    background-position: center center;
+.contato h2{
+    color:white;
+    margin:0;
+    margin-bottom:20px;
+}
+form{
+    color: white;
+    font-size:12px;
+    display: flex;
+    
+    flex-direction: column;
+}
+form input{
+    margin-bottom:10px;
+    padding:4px;
+    border: 0;
+}
+form textarea{
+    width: 98%;
+    border:0;
+    height:70px;
+}
+#btn{
+ margin-top:10px;
+ border:0;
+ cursor: pointer;
+ background-color:#055096a8;
+ color: white;
+ padding:4px;
 }
