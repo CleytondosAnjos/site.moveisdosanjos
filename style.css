@@ -29,3 +29,20 @@ div#a3{
     background-image: url('imagens/sapateiras.jpeg');
     background-position: center center;
 }
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header
+{
+    width: 100%;
+    padding: 2rem;
+}
+header ul li{
+        display: inline-block;
+}
