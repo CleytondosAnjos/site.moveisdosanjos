@@ -52,6 +52,7 @@
 
 header {
   width: 100%;
+  
 }
 
 @media (max-width: 525px) {
@@ -73,6 +74,7 @@ header ul li {
 section {
   width: 100%;
   display: block;
+  background-image: url(/imagens/60490787_842521122799407_2773468250854391808_n.jpg);
 }
 
 section h2 {
