@@ -61,8 +61,13 @@ header {
   }
 }
 
+body{
+  background-image: url(/imagens/60490787_842521122799407_2773468250854391808_n.jpg);
+}
+
 header h1 {
   font-size: 1.5rem;
+  font-size: 90px;
 }
 
 header ul li {
@@ -74,7 +79,6 @@ header ul li {
 section {
   width: 100%;
   display: block;
-  background-image: url(/imagens/60490787_842521122799407_2773468250854391808_n.jpg);
 }
 
 section h2 {
@@ -133,5 +137,9 @@ section ul.lista li img {
 section ul.lista li:first-child img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer{
+  
 }
 /*# sourceMappingURL=index.css.map */
