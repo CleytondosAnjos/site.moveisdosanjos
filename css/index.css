@@ -60,11 +60,6 @@ header {
     gap: 2rem;
   }
 }
-
-body{
-  background-image: url(/imagens/60490787_842521122799407_2773468250854391808_n.jpg);
-}
-
 header h1 {
   font-size: 1.5rem;
   font-size: 70px;
@@ -138,12 +133,5 @@ section ul.lista li img {
 section ul.lista li:first-child img {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-footer{
-  background-color: rgba(96, 96, 235, 0.842);
-  width: 100%;
-  height: 100%;
-  
 }
 /*# sourceMappingURL=index.css.map */
