@@ -60,6 +60,11 @@ header {
     gap: 2rem;
   }
 }
+body{
+  background-image: url(/imagens/60490787_842521122799407_2773468250854391808_n.jpg);
+  background-position: center center;
+}
+
 header h1 {
   font-size: 1.5rem;
   font-size: 70px;
@@ -134,4 +139,6 @@ section ul.lista li:first-child img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+
 /*# sourceMappingURL=index.css.map */
